@@ -1,0 +1,67 @@
+.Nav {
+    background-color: rgb(13, 14, 13);
+    display:flex;
+}
+
+.Name {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 14, 13);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Name h3 {
+    width: 50%;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    word-spacing: 20px;
+    text-shadow: 2px 2px 3px rgb(255, 0, 0);
+
+}
+
+.navbar {
+    width: 100%;
+
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+}
+
+.btn-group {
+    min-width: 40%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.taka{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+
+.btn-group_item {
+    background-color: rgb(204, 203, 203);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 800;
+    font-style: italic;
+    transition:.6s;
+    box-shadow: 2px 2px 1px wheat;
+}
+
+.btn-group_item:hover {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
